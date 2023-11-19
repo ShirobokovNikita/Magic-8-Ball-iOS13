@@ -13,7 +13,8 @@
 		ADE1FB4822B3A4B100DD2BD6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE1FB4722B3A4B100DD2BD6 /* ViewController.swift */; };
 		ADE1FB4D22B3A4B300DD2BD6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADE1FB4C22B3A4B300DD2BD6 /* Assets.xcassets */; };
 		ADE1FB5022B3A4B300DD2BD6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADE1FB4E22B3A4B300DD2BD6 /* LaunchScreen.storyboard */; };
-		E03D53B22B01388B00E427EC /* ViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03D53B12B01388B00E427EC /* ViewBuilder.swift */; };
+		E03172DF2B0AA048001FABBA /* BallModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03172DE2B0AA048001FABBA /* BallModel.swift */; };
+		E03D53B22B01388B00E427EC /* BallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03D53B12B01388B00E427EC /* BallView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +26,8 @@
 		ADE1FB4C22B3A4B300DD2BD6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ADE1FB4F22B3A4B300DD2BD6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ADE1FB5122B3A4B300DD2BD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E03D53B12B01388B00E427EC /* ViewBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewBuilder.swift; sourceTree = "<group>"; };
+		E03172DE2B0AA048001FABBA /* BallModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BallModel.swift; sourceTree = "<group>"; };
+		E03D53B12B01388B00E427EC /* BallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BallView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +64,8 @@
 				ADE1FB4322B3A4B100DD2BD6 /* AppDelegate.swift */,
 				ADE1FB4522B3A4B100DD2BD6 /* SceneDelegate.swift */,
 				ADE1FB4722B3A4B100DD2BD6 /* ViewController.swift */,
-				E03D53B12B01388B00E427EC /* ViewBuilder.swift */,
+				E03D53B12B01388B00E427EC /* BallView.swift */,
+				E03172DE2B0AA048001FABBA /* BallModel.swift */,
 				ADE1FB4C22B3A4B300DD2BD6 /* Assets.xcassets */,
 				ADE1FB4E22B3A4B300DD2BD6 /* LaunchScreen.storyboard */,
 				ADE1FB5122B3A4B300DD2BD6 /* Info.plist */,
@@ -143,8 +146,9 @@
 			files = (
 				ADE1FB4822B3A4B100DD2BD6 /* ViewController.swift in Sources */,
 				ADE1FB4422B3A4B100DD2BD6 /* AppDelegate.swift in Sources */,
-				E03D53B22B01388B00E427EC /* ViewBuilder.swift in Sources */,
+				E03D53B22B01388B00E427EC /* BallView.swift in Sources */,
 				ADE1FB4622B3A4B100DD2BD6 /* SceneDelegate.swift in Sources */,
+				E03172DF2B0AA048001FABBA /* BallModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
